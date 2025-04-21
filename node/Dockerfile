@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 
-COPY index.js ./ 
+COPY . .  
 
 ENV DOCKERIZE_VERSION v0.9.3
 
